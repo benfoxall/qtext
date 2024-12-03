@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  background: #ccc;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  font-size: 4vmin;
+  height: 40vmin;
+  width: 40vmin;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+canvas {
+  background-color: #fff;
+  height: 40vmin;
+  width: 40vmin;
+  padding: 0.5em;
+  image-rendering: pixelated;
+  border-radius: 5px;
+}
